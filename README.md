@@ -23,8 +23,7 @@ This project aims to analyze and model cancer patient data to:
 
 1. **Data Cleaning and Preparation**:
 
- Loaded the dataset, checked for duplicates and missing values, and identified outliers in the `Target_Severity_Score` column. Binarized the `Target_Severity_Score` into `High` and `Low` categories and created a `Survived_Target` based on survival years.
-
+ The dataset was initially loaded and assessed for duplicates, missing values, and outliers, particularly in the Target_Severity_Score column. To facilitate analysis, a new column, Severity_Score_Level, was created by categorizing the continuous severity score into two groups—High and Low—using 0 as the threshold. This categorization enabled a clearer interpretation of severity. The Severity_Target column was then introduced to convert the severity levels into a binary format appropriate for classification tasks. In a similar manner, survival years were categorized into a new column, Survival_Score_Level, distinguishing patients who survived more than 5 years from those who survived 5 years or less. The corresponding binary classification target, Survived_Target, was also created to support survival prediction modeling.
 
 2. **Data Visualization**:
    
