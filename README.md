@@ -1,23 +1,26 @@
 # phase3project
+
 # 🎥Predictive Modeling and Risk Analysis of Cancer Severity and Survival Outcomes Using Machine Learning
 
 
 ## 🔍 Business Understanding
-Cancer remains one of the leading causes of death globally, with its complexity and variability making treatment and prediction challenging. Health institutions are increasingly relying on data-driven approaches to improve patient outcomes. Accurate prediction of patient severity and survival likelihood can help healthcare providers prioritize care, allocate resources more effectively, and tailor treatment plans for better patient outcomes.
-This project seeks to apply data science methods to a synthetic global cancer patient dataset spanning from 2015 to 2024. The key goal is to explore and predict patient health outcomes based on demographic, lifestyle, and clinical variables using both statistical and machine learning techniques.
 
-## 🧠 Data Understanding
-The dataset titled Global Cancer Patients 2015–2024 is a synthetic representation of cancer patient records from multiple countries. Each record includes personal demographics, environmental and lifestyle risk factors, treatment costs, cancer type and stage, survival duration, and a calculated severity score. Although synthetic, the dataset is designed to mimic real-world patterns and can be used for educational, analytical, and modeling purposes.
-
-## 📌 Problem Statement
-The healthcare industry constantly seeks innovative solutions to optimize cancer care delivery and reduce mortality rates. Leveraging data science to analyze cancer-related data can provide actionable insights into patient outcomes and treatment planning.
+Cancer remains one of the leading causes of death globally, with its complexity and variability making treatment and prediction challenging. Health institutions are increasingly relying on data-driven approaches to improve patient outcomes. Accurate prediction of patient severity and survival likelihood can help healthcare providers prioritize care, allocate resources more effectively, and tailor treatment plans for better patient outcomes. The key goal is to explore and predict patient health outcomes based on demographic, lifestyle, and clinical variables using both statistical and machine learning techniques.
 
 This project aims to analyze and model cancer patient data to:
 
 1. To compute and visualize the correlation between the Target Severity Score and continuous risk factors.
+
 2. To investigate whether survival outcomes differ significantly across various cancer stages.
+
 3. To predict whether a patient has a high severity score.
+
 4. To predict whether a patient will survive more than 5 years after diagnosis.
+
+## 🧠 Data Understanding
+
+The dataset titled Global Cancer Patients 2015–2024 is a synthetic representation of cancer patient records from multiple countries. Each record includes personal demographics, environmental and lifestyle risk factors, treatment costs, cancer type and stage, survival duration, and a calculated severity score. Although synthetic, the dataset is designed to mimic real-world patterns and can be used for educational, analytical, and modeling purposes.
+
 
 ## 🔍 Methodology:
 
@@ -86,4 +89,5 @@ images/ → Folder containing images used throughout the notebook and README.md 
 README.md → This project overview file
 
 index.ipynb → The technical presentation
+
 presentation.pdf → The non technical presentation
