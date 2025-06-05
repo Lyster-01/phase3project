@@ -13,7 +13,7 @@ This project aims to analyze and model cancer patient data to:
 
 2. To investigate whether survival outcomes differ significantly across various cancer stages.
 
-3. To predict whether a patient has a high severity score.
+3. To predict whether a patient’s severity level is classified as High or Low based on clinical and lifestyle factors.
 
 4. To predict whether a patient will survive more than 5 years after diagnosis.
 
@@ -24,11 +24,11 @@ The dataset titled Global Cancer Patients 2015–2024 is a synthetic representat
 
 ## 🔍 Methodology:
 
-1. **Data Cleaning and Preparation**:
+1. **Data Cleaning and Preparation**
 
- The dataset was initially loaded and assessed for duplicates, missing values, and outliers, particularly in the Target_Severity_Score column. To facilitate analysis, a new column, Severity_Score_Level, was created by categorizing the continuous severity score into two groups—High and Low—using 0 as the threshold. This categorization enabled a clearer interpretation of severity. The Severity_Target column was then introduced to convert the severity levels into a binary format appropriate for classification tasks. In a similar manner, survival years were categorized into a new column, Survival_Score_Level, distinguishing patients who survived more than 5 years from those who survived 5 years or less. The corresponding binary classification target, Survived_Target, was also created to support survival prediction modeling.
+ The dataset was initially loaded and assessed for duplicates, missing values, and outliers, particularly in the Target_Severity_Score column. To facilitate analysis, a new column, Severity_Score_Level, was created by categorizing the continuous severity score into two groups—High and Low—using 0 as the threshold. This categorization enabled a clearer interpretation of severity. The Severity_Target column was then introduced to convert the severity levels into a binary format appropriate for classification tasks. In a similar manner, survival years were categorized into a new column, Survival_Score_Level, distinguishing patients who survived more than 5 years from those who survived 5 years or less. The corresponding binary classification target, Survived_Target, was also created to support survival prediction modelling.
 
-2. **Data Visualization**:
+2. **Data Visualization**
    
  Visualized the distribution of survival years across cancer stages, severity levels, and correlations between features. This helped TO understand the dataset better and identify key factors influencing cancer severity.
 
@@ -60,9 +60,9 @@ Acknowledges areas where further exploration, data collection, or improved metho
 
 ![alt text](image-1.png)
 
-3️⃣Top 10 Features Influencing High Severity Prediction
+3️⃣Top 10 Features Influencing Cancer Severity Status
 
-![alt text](image-2.png)
+![alt text](image-4.png)
 
 4️⃣ROC Curve for Severity_Target Classifiers
 
