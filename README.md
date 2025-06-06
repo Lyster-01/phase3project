@@ -43,10 +43,10 @@ Trained various machine learning models, including logistic regression, decision
 
 
 5. **Model Performance**
+6. 
+The logistic regression model emerged as the best-performing model, followed closely by the tuned random forest classifier and tuned decision tree when predicting the severity. The models generally performed well, with recall being a key metric due to the medical context of the dataset.The models used to predict the survival outcomes did not perform as good.
 
- The logistic regression model emerged as the best-performing model, followed closely by the tuned random forest classifier and tuned decision tree when predicting the severity. The models generally performed well, with recall being a key metric due to the medical context of the dataset.The models used to predict the survival outcomes did not perform as good.
-
-6. **Limitations**
+1. **Limitations**
 
 Acknowledges areas where further exploration, data collection, or improved methods could enhance the results.
 
@@ -58,6 +58,7 @@ Acknowledges areas where further exploration, data collection, or improved metho
 
 2️⃣ Understanding the distribution of Survival Years for Patients Surviving More than 5 Years
 
+![alt text](image-2.png)
 ![alt text](image-1.png)
 
 3️⃣Top 10 Features Influencing Cancer Severity Status
